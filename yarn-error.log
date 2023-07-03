@@ -1,0 +1,50 @@
+Arguments: 
+  D:\Download_APP\Node.Js\node.exe D:\Download_APP\Node.Js\node_global\node_modules\yarn\bin\yarn.js deploy-gh.sh
+
+PATH: 
+  D:\Download_APP\JDK1.8\bin;D:\Download_APP\JDK1.8\jre\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Download_APP\VMware\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Download_APP\MinGW-w64\mingw64\bin;D:\Download_APP\Idea\maven\apache-maven-3.9.1\bin;D:\Download_APP\MySql\mysql-8.0.27-winx64\bin;D:\Download_APP\Tomcat\apache-tomcat-10.1.7\lib;D:\Download_APP\Tomcat\apache-tomcat-10.1.7\bin;D:\Download_APP\Tomcat\apache-tomcat-10.1.7\lib\servlet-api.jar;D:\Download_APP\Node.Js;D:\Download_APP\Node.Js\node_global;C:\Users\Liuhao\AppData\Local\Microsoft\WindowsApps;D:\VScode\Microsoft VS Code\bin;:D:\Download_APP\MinGW-w64\mingw64\bin;C:\Users\Liuhao\AppData\Roaming\npm;D:\Download_APP\Idea_zhuan_ye_ban\IntelliJ IDEA 2023.1\bin;;D:\Download_APP\Cmake\cmake-3.27.0-rc3-windows-x86_64\cmake-3.27.0-rc3-windows-x86_64\bin;D:\Download_APP\goland\GoLand 2023.1.3\bin;;D:\Download_APP\Go\go1.20.5.windows-amd64\go\bin;;D:\Download_APP\clion\CLion 2023.1.4\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.19.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: E:\my_blog\my_blog\package.json: Unexpected token / in JSON at position 154
+      at JSON.parse (<anonymous>)
+      at D:\Download_APP\Node.Js\node_global\node_modules\yarn\lib\cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (D:\Download_APP\Node.Js\node_global\node_modules\yarn\lib\cli.js:310:30)
+      at D:\Download_APP\Node.Js\node_global\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "blog",
+    "version": "2.0.0",
+    "description": "A project of vuepress-theme-hope",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+      // "docs:deploy": "deploy-gh.sh -d build",
+      "docs:build": "vuepress build src",
+      "docs:clean-dev": "vuepress dev src --clean-cache",
+      "docs:dev": "vuepress dev src",
+      "docs:update-package": "npx vp-update"
+    },
+    "devDependencies": {
+      "@vuepress/client": "2.0.0-beta.63",
+      "vue": "^3.2.47",
+      "vuepress": "^2.0.0-beta.63",
+      "vuepress-theme-hope": "2.0.0-beta.228"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
