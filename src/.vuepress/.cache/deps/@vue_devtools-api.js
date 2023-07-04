@@ -2,7 +2,7 @@ import {
   isPerformanceSupported,
   now,
   setupDevtoolsPlugin
-} from "./chunk-SUOEKRGS.js";
+} from "./chunk-RFQTXRIF.js";
 import "./chunk-TFWDKVI3.js";
 export {
   isPerformanceSupported,
